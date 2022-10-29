@@ -23,7 +23,16 @@ public class D_M_Y_Converter
 
             case 'b': int y, m, d; //input
             int fd;
-            System.out.println("Enter the number of years");
+            System.out.println("Enter the number of Years");
+            y = x.nextInt();
+            System.out.println("Enter the number of Months");
+            m = x.nextInt();
+            System.out.println("Enter the number of Days");
+            d = x.nextInt();
+
+            fd = y*365 + m*30 + d;
+            System.out.println("Total number of days "+fd+" day(s)");
+            break;
 
             default: System.out.println("error");
         }
