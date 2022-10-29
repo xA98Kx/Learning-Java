@@ -36,7 +36,7 @@ public class D_M_Y_Converter
 
             default: System.out.println("error");
         }
-
+        x.close();
 
     }
 }
