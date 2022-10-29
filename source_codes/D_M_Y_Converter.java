@@ -21,8 +21,8 @@ public class D_M_Y_Converter
             System.out.println("Days "+remaining_days+" Months "+months+" Years "+years);
             break;
 
-            case 'b': int years, months, days;
-            int days;
+            case 'b': int y, m, d; //input
+            int fd;
             System.out.println("Enter the number of years");
 
             default: System.out.println("error");
