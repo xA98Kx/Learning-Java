@@ -45,6 +45,7 @@ class Perfect
             System.out.println("not Perfect");
 
         }    
+        s.close();
 
 
     }    
