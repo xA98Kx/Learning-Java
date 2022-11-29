@@ -9,10 +9,11 @@ public class Factorial
         System.out.println("Enter Number");
 
         number = x.nextInt();
+        x.close();
         for(i=1;i<=number;i++){
          fact=fact*i;
         }
-        System.out.println(fact);
         x.close();
+        System.out.println(fact);
     }
 }
