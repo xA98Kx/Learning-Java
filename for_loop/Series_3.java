@@ -8,8 +8,7 @@ public class Series_3 {
         System.out.println("Enter the limit");
         n = c.nextDouble();
         c.close();
-
-        for( i = 0; i <= n; i++)
+        for( i = 0; i <= n-1; i++)
         {
             System.out.print((int)Math.pow(3, i)+",");
         }
