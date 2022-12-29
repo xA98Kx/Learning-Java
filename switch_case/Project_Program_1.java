@@ -15,11 +15,11 @@ public class Project_Program_1
         switch(ch)
         {
             case 1: System.out.println("Enter the sides of the triangle");
-            System.out.print("Side 1  ");
+            System.out.print("Side 1: ");
             a = x.nextDouble();
-            System.out.print("\n"+"Side 2  ");
+            System.out.print("Side 2: ");
             b = x.nextDouble();
-            System.out.print("\n"+"Side 3  ");
+            System.out.print("Side 3: ");
             c = x.nextDouble();
 
             s = (a+b+c)/2;
