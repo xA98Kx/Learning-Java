@@ -26,7 +26,7 @@ public class Project_program2
             System.out.println("Enter the number of total terms to be iterated");
             int n = x.nextInt();
             x.close();
-            for (i=0;i<=n-1;i+=1)
+            for (i=0;i<=n-1;i++)
             {
                 s = s + (int)Math.pow(-a,i);
             }
