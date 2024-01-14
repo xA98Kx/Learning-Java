@@ -16,5 +16,6 @@ public class REV {
             n=n/10;
         }
         System.out.println(r);
+        x.close();
     }
 }

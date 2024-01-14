@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "switch_case",
+        "if-else",
         "for_loop",
-        "if-else"
+        "ClassPrograms"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

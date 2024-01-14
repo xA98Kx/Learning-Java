@@ -8,7 +8,7 @@ public class PRODDIGI {
         System.out.println("Enter a num");
 
         n = x.nextInt();
-
+        x.close();
         while(n>0)
         {
             d = n%10;

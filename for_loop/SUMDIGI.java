@@ -16,5 +16,6 @@ public class SUMDIGI {
             n=n/10;
         }
         System.out.println(s);
+        x.close();
     }
 }

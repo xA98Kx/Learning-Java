@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class duck {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        int n,d,s=0,f=0;
-    
+        int n,d,f=0;
+        x.close();
         System.out.println("Enter a num");
 
         n = x.nextInt();

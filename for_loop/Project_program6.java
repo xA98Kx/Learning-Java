@@ -35,5 +35,6 @@ public class Project_program6 {
             break;
             default:System.out.println("Incorect choice");
         }
+        sc.close();
     }
 }
