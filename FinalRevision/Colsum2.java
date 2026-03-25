@@ -1,11 +1,11 @@
 
 import java.util.Scanner;
 
-public class Colsum {
+public class Colsum2 {
 
     int mat[][], m, n;
 
-    public Colsum(int mm, int nn) {
+    public Colsum2(int mm, int nn) {
         m = mm;
         n = nn;
 
@@ -27,7 +27,7 @@ public class Colsum {
         x.close();
     }
 
-    boolean check (Colsum A, Colsum B)
+    boolean check (Colsum2 A, Colsum2 B)
     {
         int sum1 = 0;
         int sum2 = 0;
@@ -71,8 +71,8 @@ public class Colsum {
         int in=x.nextInt();
         int im=x.nextInt();
 
-        Colsum C1 = new Colsum(in, im);
-        Colsum C2 = new Colsum(in, im);
+        Colsum2 C1 = new Colsum2(in, im);
+        Colsum2 C2 = new Colsum2(in, im);
 
         C1.readArray();
         C2.readArray();

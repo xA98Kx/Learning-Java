@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Perni {
+class Perni2 {
 
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
